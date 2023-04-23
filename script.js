@@ -1,32 +1,11 @@
-class Animal {
-  constructor(name) {
-    this.name = name;
-  }
+//complete this code
+class Animal {}
 
-  speak() {
-    console.log(`${this.name} makes a noise.`);
-  }
-}
+class Dog extends Animal {}
 
-class Dog extends Animal {
-  constructor(name) {
-    super(name);
-  }
-
-  speak() {
-    console.log(`${this.name} barks.`);
-  }
-}
-
-class Cat extends Animal {
-  constructor(name) {
-    super(name);
-  }
-
-  speak() {
-    console.log(`${this.name} meows.`);
-  }
-}
+class Cat extends Animal {}
 
 // Do not change the code below this line
 window.Animal = Animal;
+window.Dog = Dog;
+window.Cat = Cat;
